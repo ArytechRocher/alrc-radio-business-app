@@ -1,0 +1,25 @@
+name: alrc_radio_business_app
+description: Web radio officielle d'ALRC Groupe Média
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  just_audio: ^0.9.34
+  audio_service: ^0.18.12
+  just_audio_background: ^0.0.1-beta.10
+  google_fonts: ^6.1.0
+  connectivity_plus: ^6.0.3
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo_radio.png
